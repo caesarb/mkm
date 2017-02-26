@@ -1,0 +1,7 @@
+-- import with:
+keytool -import -trustcacerts -alias mkmapi -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file D:\Projekte\mkm\mkm-jar\src\main\resources\-mkmapieu.crt
+
+-- check with:
+keytool -list -keystore "%JAVA_HOME%/jre/lib/security/cacerts"
+
+--defaultpassword is "changeit"
